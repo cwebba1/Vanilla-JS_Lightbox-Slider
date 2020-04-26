@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Responsive Gallery with Lightbox Prototype 07</title>
+
+    <!-- THIS: Responsive_Gallery_with_Lightbox_prototype_08.html
+
+	FROM: Responsive_Gallery_with_Lightbox_prototype_07.html
+Responsive_Gallery_with_Lightbox_prototype_06.html
+  Responsive_Gallery_with_Lightbox_prototype_05.html
+  Responsive_Gallery_with_Lightbox_prototype_05.html
+  Responsive_Gallery_with_Lightbox_prototype_04.html
+  Responsive_Gallery_with_Lightbox_prototype_03-b.html
+	Responsive_Gallery_with_Lightbox_prototype_03.html
+	Responsive_Gallery_with_Lightbox_prototype_02.html
+	Responsive_Gallery_with_Lightbox_prototype_01-b.html
+	prototype_starter_01.html -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,200,300,600,' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="css/prototype_style.css"> 
+  <link rel="stylesheet" type="text/css" href="css/prototype-sticky-footer.css"> 
+  <link rel="stylesheet" type="text/css" href="css/bautista_08.css"> 
+
+<style>
+
+html { 	background:#AFDFC7; }
+body {	background:#BCDEFA; }
+main {	background:#FFDEDD; }
+header, footer {	background:#FEFDFA; }
+.sidebar {	background:#CEEFEF; }
+
+
+.credits {
+  font-size:0.8625em; 
+  line-height:1.2;
+  max-width:38em;
+  margin:3.5em 1em 1em;"
+}
+
+.title,
+.caption {
+  background:rgba(253, 254, 251, 0.7);
+    padding:.375em 0 .25em .325em;
+    border-radius:3px;
+    margin:0;
+    line-height:1.2;
+}
+
+figure.gallery-item {
+  padding-bottom:2.25em;
+  line-height:1.5;
+}
+
+fig-caption p {
+  line-height:1.1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+
+  fig-caption p {
+  font-size:0.875em; 
+  line-height:1.2;
+  }
+}
+
+
+</style>
+</head>
+
+
+<body>
+<div class="basal">
+  <header>
+    <div class="in-head">
+	<figure class="logo">
+		<a id="nav-home" href="http://www.craigwebbart.com/">
+			<img src="assets/img/cwebba_logo5.svg" alt="Craig Webb Art">
+		</a>
+	</figure>
+	<nav id="main-nav">
+		<ul>
+        		<li><a class="active" href="https://codepen.io/cwebba1/">Codepen</a></li>
+			<li><a href="https://github.com/cwebba1">Github</a></li>
+		</ul>
+	</nav>
+    </div><!-- END class="in-head" -->
+  </header>
+  <main>
+
+	<h2>Responsive Gallery with Lightbox Prototype 08</h2>
+
+<figure style="border:1px #cdcdcd solid;margin:0 auto 1em; width:26%;min-width:26em;max-width:36em;">
+    <span class="gallery-item" data-index="1">
+        <img id="img01" src="http://craigwebbart.com/lightbox/skateboarder-crop.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
+          alt="Skateboarder flying high in the air" data-cutline="Nothing like a sunny day to skateboard in the park." title="Skateboarder High-five">
+</span>
+<fig-caption>Skateboarder High-five</fig-caption>
+</figure>
+
+<div class="gallery-container">
+   <figure class="gallery-item" data-index="2">
+        <img id="img02" src="http://craigwebbart.com/lightbox/rugby-men.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Surrounded rugby player makes a dash for the goal" title="Breaking through and making a determined dash for the goal" data-cutline="Surrounded by opponents, a determined rugby player runs with the ball.">
+    <fig-caption><p>Surrounded, pushing through</p></fig-caption>
+    </figure>
+    <figure class="gallery-item" data-index="3">
+        <img id="img03" src="http://craigwebbart.com/lightbox/pitched-tents.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Camping tent on the meadow summit" title="We camped safely on the summit before dusk, ready for dinner" data-cutline="Camping on the summit gave a view of the valley all the way to the horizon.">
+    <fig-caption><p>Camping on the summit</p></fig-caption>
+    </figure>
+    <figure class="gallery-item" data-index="4">
+        <img id="img04" src="http://craigwebbart.com/lightbox/underwater-swimmer-crop.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Underwater swimmer with goggles" title="Lots to see and great exercise, swimming underwater" data-cutline="Underwater swimming in the coral reefs, an extremely diverse and important ecosystem.">
+    <fig-caption><p>Underwater sight-seeing</p></fig-caption>
+    </figure>
+    <figure class="gallery-item" data-index="5">
+        <img id="img05" src="http://craigwebbart.com/lightbox/gymnast-practicing-on-the-rings.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Gymnast practicing on the rings" title="Daily practice is key to preperation for gymnast competitions" data-cutline="Gymnasts use cables to avoid injury as they build strength with daily practice.">
+    <fig-caption><p>Gymnist on the rings</p></fig-caption>
+    </figure>
+    <figure class="gallery-item" data-index="6">
+        <img id="img06" src="http://craigwebbart.com/lightbox/volleyball-babe.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Volleyball babe" title="Pro Volleyball is serious business" data-cutline="Volleyball players are tough as nails, focused, competitive and determined to win.">
+    <fig-caption><p>Volleyball Player at the ready</p></fig-caption>
+    </figure>
+    <figure class="gallery-item" data-index="7">
+        <img id="img07" src="http://craigwebbart.com/lightbox/runners.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Runners racing uphill on a country trail" title="Half-marathon competitions are popular and challenging" data-cutline="Runners spread out and pace themselves mid-way along the half-marathon trail.">
+    <fig-caption><p>Half-way through the race</p></fig-caption>
+    </figure>
+    <figure class="gallery-item" data-index="8">
+        <img id="img08" src="http://craigwebbart.com/lightbox/hockey.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Hockey players battle and chase the puck" title="Hockey power players match sticks to puck" data-cutline="Late in the game and a must-win match, Hockey players fight for control of the&nbsp;puck.">
+    <fig-caption><p>Hockey Player Mashup</p></fig-caption>
+    </figure>
+  <figure class="gallery-item" data-index="9">
+    <img id="img09" src="http://craigwebbart.com/lightbox/bicycle-race.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  alt="Bicycle-race" title="NYC Bicycle Race" data-cutline="Bicycle-race through the five boroughs is exciting, grueling and fun.">
+    <fig-caption><p>Five-Borough Bike Race</p></fig-caption>
+  </figure>
+    <figure class="gallery-item" data-index="10">
+        <img id="img10" src="http://craigwebbart.com/lightbox/boxers-in-the-ring.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Boxers fighing in the boxing ring" title="Boxers in the boxing ring duke it out" data-cutline="Blow by blow, the welterweight boxers wear each other down, aiming for a knock-out punch.">
+    <fig-caption><p>Welterweight Boxers pack a&nbsp;punch</p></fig-caption>
+    </figure>
+</div>
+
+<div class="credits">
+  <p>Credits: All Photographs are from <a href="https://Pexels.com">Pexels.com</a><br>
+Thank you Photographers:<br>
+Anton Belitskiy, Alexandre Saraiva Carniato, Patrick Case, Frank Cone, Xue Guangjian, Jan Kopřiva, Andrea Piacquadio, RUN 4 FFWPU, and Sides Imagery.</p>
+
+  <p>Resource inspiration from: A PEN BY <a href="https://codepen.io/KielBautista/pen/mxWNOb">King Jhessrael Bautista</a></p>
+</div>
+</main>
+<footer>
+  <div class="sock">
+    <nav class="footsie">
+      <ul>
+	<li>
+	   <a href="https://twitter.com/cwebba1/">Twitter</a>
+	</li>
+        <li>
+          <a class="" href="https://angel.co/craig-webb-1">AngelList</a>
+        </li>
+        <li>
+          <a class="" href="mailto:craigwebb@craigwebbart.com">Contact Us</a>
+        </li>
+    </ul>
+  </nav>
+  <div class="copyright-box">
+    <p class="copyright">&copy; <script type='text/javascript'>if (typeof(getCopyrightDate)=='function') document.write(getCopyrightDate(2017, null, '-')); else document.write((new Date()).getFullYear());</script> Craig Webb Art. &nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
+  </div>
+
+</div><!-- END sock -->
+</footer>
+</div><!-- END class="basal" -->
+
+<!-- Optional JavaScript -->
+        <script src="assets/js/bautista_08.js"></script>
+
+<!--<script src=""></script> -->
+
+</body>
+</html>
