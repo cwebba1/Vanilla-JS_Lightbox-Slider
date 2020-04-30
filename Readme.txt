@@ -6,7 +6,7 @@ This Lightbox is a stand-alone project with no dependencies written in vanilla J
 
 Starting from a light-box example, I added custom functions and styles. 
 
-Features: 
+**Features:**
 Font Awesome is removed and SVG icons are built using JavaScript.
 Titles and cutlines are added. Content is contained within data attributes.
 Styles are added to suit my design.
@@ -31,7 +31,7 @@ A working prototype is posted at <a href="https://codepen.io/cwebba1/pen/QWjgwxe
 
 I plan to implement additional features and functions. Friends and mentors are welcome.
 
-Please contact me with suggestions at cwebba1@gmail.com
+Please contact me with suggestions at [cwebba1](mailto:cwebba1@gmail.com?Subject=[Github Light-box]
 
 ¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯
 
@@ -43,4 +43,5 @@ https://codepen.io/KielBautista/pen/mxWNOb
 Responsive Gallery with Lightbox
 A PEN BY King Jhessrael Bautista
 
-Thank you for help from <a href="https://www.meetup.com/hackerhours/">New York City Hacker Hours</a>, and <a href="https://www.meetup.com/nyfrontendcoders/">New York Front End Coders</a>; and <a href="https://stackoverflow.com/users/7134209/th31">th31</a> and <a href="https://stackoverflow.com/users/13336973/ravi-ostwal">Ravi Ostwal</a> from Stack Overflow.
+Thank you for help from [New York City Hacker Hours](https://www.meetup.com/hackerhours/), and [New York Front End Coders](https://www.meetup.com/nyfrontendcoders/).
+Also, thank you to [th31](https://stackoverflow.com/users/7134209/th31) and [Ravi Ostwal](https://stackoverflow.com/users/13336973/ravi-ostwal) from Stack Overflow.
