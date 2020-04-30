@@ -33,6 +33,8 @@ I plan to implement additional features and functions. Friends and mentors are w
 
 Please contact me with suggestions at cwebba1@gmail.com
 
+¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯¯\_(ツ)_/¯
+
  - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - –
 
 I started from this lightbox example on Codepen at: 
