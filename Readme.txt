@@ -1,6 +1,39 @@
-042620 CWebba Vanilla-JS_Lightbox-Slider v5 and v8 READ ME
+042920 CWebba Vanilla-JS_Lightbox-Slider v8 READ ME
 
 This project is in progress.
+
+This Lightbox is a stand-alone project with no dependencies written in vanilla JavaScript and SVG Name Space. I added the JavaScript and CSS to a WordPress page and it worked perfectly.
+
+Starting from a light-box example, I added custom functions and styles. 
+
+Features: 
+Font Awesome is removed and SVG icons are built using JavaScript.
+Titles and cutlines are added. Content is contained within data attributes.
+Styles are added to suit my design.
+
+The required files are:
+Responsive_Gallery_with_Lightbox_prototype_08.html
+vanilla_lightbox_08.css
+vanilla-lightbox_08.js
+
+Additional CSS are for the prototype layout and can be ignored:
+prototype_style.css
+prototype-sticky-footer.css
+
+Certain IDs, classes and data-attributes are needed in the markup for the light-box to function.
+
+They are:
+div class="gallery-container" (optional)
+figure class="gallery-item" data-index="2"
+img id="img00" src="" alt="" title="" data-cutline=""
+
+A working prototype is posted at <a href="https://codepen.io/cwebba1/pen/QWjgwxe">https://codepen.io/cwebba1/pen/QWjgwxe</a>
+
+I plan to implement additional features and functions. Friends and mentors are welcome.
+
+Please contact me with suggestions at cwebba1@gmail.com
+
+ - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - –
 
 I started from this lightbox example on Codepen at: 
 
@@ -8,18 +41,4 @@ https://codepen.io/KielBautista/pen/mxWNOb
 Responsive Gallery with Lightbox
 A PEN BY King Jhessrael Bautista
 
-
-I added functions and styles. Currently I wish to add Titles and Cutlines to the modal.
-
-I need help. The titles and cutline function is breaking. New titles and captions appear as I change photos but they do not disappear as the next image+title+caption load. The code I added is in or below the for loop.
-
-I am using data attributes within the HTML to add the titles and cutlines. I need help with the for loop function and how to iterate through multiple actions using the looping function.
-
-Please contact me with suggestions at cwebba1@gmail.com
-
-
-Previous changes:
-– Removed Font Awesome Icons and added JavaScript to build and style SVG icons.
-
-
- - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - – - –
+Thank you for help from <a href="https://www.meetup.com/hackerhours/">New York City Hacker Hours</a>, and <a href="https://www.meetup.com/nyfrontendcoders/">New York Front End Coders</a>; and <a href="https://stackoverflow.com/users/7134209/th31">th31</a> and <a href="https://stackoverflow.com/users/13336973/ravi-ostwal">Ravi Ostwal</a> from Stack Overflow.
