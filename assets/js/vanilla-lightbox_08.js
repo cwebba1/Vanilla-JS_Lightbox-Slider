@@ -1,3 +1,4 @@
+// vanilla-lightbox_08.js 042920
 // bautista_08.js 042420
 
 const galleryItem = document.getElementsByClassName("gallery-item");
@@ -64,11 +65,11 @@ var svgRight = document.getElementsByClassName('arrowRight');
 svgnext.appendChild(circle);
 svgnext.appendChild(PathArrowNext);
 lightBoxContainer.appendChild(lightBoxContent);
+lightBoxContent.appendChild(lightBoxTitle);
 lightBoxContent.appendChild(lightBoxImg);
 lightBoxContent.appendChild(lightBoxPrev);
 lightBoxContent.appendChild(lightBoxNext);
 // These are added 021320 - hackerhurs meetup
-lightBoxContent.appendChild(lightBoxTitle);
 lightBoxContent.appendChild(lightBoxCutline);
 
 document.body.appendChild(lightBoxContainer);
@@ -90,12 +91,12 @@ function showLightBox(n) {
   let title = galleryItem[index-1].children[0].getAttribute('title');
   if( title )
   {
-    lightBoxImg.insertAdjacentHTML('beforeBegin', `<h4 class="title">${title}</h4>`); 
+    lightBoxTitle.innerHTML=`<h4 class="title">${title}</h4>`; 
 }
   let cutline = galleryItem[index-1].children[0].getAttribute('data-cutline'); //image.data.cutline;
   if( cutline )
   {
-    lightBoxImg.insertAdjacentHTML('afterEnd', `<figcaption class="caption">${cutline}</figcaption>`); 
+    lightBoxCutline.innerHTML=`<figcaption class="caption">${cutline}</figcaption>`; 
   }
 }
 

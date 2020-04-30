@@ -1,4 +1,5 @@
-/** bautista_08.css 042420 from bautista.css  **/
+/** vanilla_lightbox_08.css 042920
+from bautista_08.css 042420 from bautista.css  **/
 * {
     box-sizing: border-box;
 }
@@ -135,3 +136,34 @@ border:1px solid  rgba(59, 59, 59, .8);
         margin: 20% auto;
     }
 }
+
+.title,
+.caption {
+  background:rgba(253, 254, 251, 0.7);
+    padding:.375em 0 .25em .325em;
+    border-radius:3px;
+    margin:0;
+    line-height:1.2;
+}
+
+figure.gallery-item {
+  line-height:1.5;
+}
+
+.gallery-container figure.gallery-item {
+  padding-bottom:2.25em;
+}
+
+
+fig-caption p {
+  line-height:1.1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 880px) {
+
+  fig-caption p {
+  font-size:0.875em; 
+  line-height:1.2;
+  }
+}
+
